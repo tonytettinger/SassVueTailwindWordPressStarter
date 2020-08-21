@@ -1,6 +1,5 @@
 let mix = require("laravel-mix");
 const tailwindcss = require("tailwindcss");
-require("laravel-mix-svelte");
 
 /*
  |--------------------------------------------------------------------------
@@ -18,8 +17,7 @@ mix
   .options({
     processCssUrls: false,
     postCss: [tailwindcss("./tailwind.config.js")]
-  })
-  .svelte();
+  });
 
 mix.browserSync({
   files: ["./**/*"],

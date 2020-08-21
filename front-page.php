@@ -4,9 +4,7 @@
   Hello!!!
 </div>
 
-<div id="app-5">
-  <p>{{ message }}</p>
-  <button v-on:click="reverseMessage">Reverse Message</button>
-</div>
-
+<?php echo get_template_part('/components/button-counter');
+?><div class="bg-gray-100">Hello</div>
+<p>again</p>
 <?php get_footer(); ?>

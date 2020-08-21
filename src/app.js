@@ -1,1 +1,3 @@
-import "./js/vue/Hello";
+import "./js/vue/ButtonCounter";
+
+import "./js/vue/Vue";

@@ -1,4 +1,4 @@
-<footer class="bg-primary">
+<footer class="bg-blue">
   Footer
 </footer>
 
